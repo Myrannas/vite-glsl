@@ -1,0 +1,23 @@
+{
+  "name": "vite-glsl",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "bolt w consumer start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "twgl.js": "^4.19.2",
+    "vite": "^2.4.4"
+  },
+  "bolt": {
+    "workspaces": [
+      "consumer",
+      "vite-glsl"
+    ]
+  }
+}
